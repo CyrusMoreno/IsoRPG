@@ -1,0 +1,6 @@
+{
+  "name": "Diablo II 2.5D Isometric Engine & RGSS3 Suite",
+  "description": "Diablo II 2.5D isometric projection simulator, complete RPG Maker VX Ace RGSS3 script suite, and gothic dark fantasy asset studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
