@@ -190,6 +190,92 @@ export const AssetStudio: React.FC = () => {
         </div>
       </div>
 
+      {/* Generated Ready-to-use PNG Files Banner */}
+      <div className="p-4 bg-stone-900/90 border-b border-stone-800">
+        <div className="text-xs font-cinzel text-amber-300 font-bold uppercase tracking-wider mb-2 flex items-center gap-2">
+          <span>Generated Compatible .PNG Files (Ready to Download)</span>
+          <span className="text-[10px] font-mono text-emerald-400 bg-emerald-950 border border-emerald-700/60 px-2 py-0.5 rounded font-normal">
+            VERIFIED RPG MAKER VX ACE COMPLIANT
+          </span>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          {/* Tileset PNG Card */}
+          <div className="p-3 bg-stone-950 border border-stone-800 rounded flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-1">
+                <span className="font-mono text-xs font-bold text-amber-200">Diablo_Isometric_Tileset_B.png</span>
+                <span className="text-[10px] font-mono text-stone-400">512×512</span>
+              </div>
+              <p className="text-[11px] text-stone-400">
+                Floor diamonds (64×32), cracked stone, blood stains, mud, lava, gothic walls &amp; pillars.
+              </p>
+              <div className="mt-2 text-[10px] font-mono text-amber-400/80">
+                Target: <code>Graphics/Tilesets/</code>
+              </div>
+            </div>
+            <div className="mt-3 flex items-center gap-2">
+              <a
+                href="/assets/Diablo_Isometric_Tileset_B.png"
+                download="Diablo_Isometric_Tileset_B.png"
+                className="w-full py-1.5 bg-stone-800 hover:bg-stone-700 text-amber-300 border border-stone-700 rounded text-center text-xs font-mono font-bold flex items-center justify-center gap-1.5"
+              >
+                <Download className="w-3.5 h-3.5" /> Download Tileset (.png)
+              </a>
+            </div>
+          </div>
+
+          {/* 8-Dir Character PNG Card */}
+          <div className="p-3 bg-stone-950 border border-stone-800 rounded flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-1">
+                <span className="font-mono text-xs font-bold text-amber-200">$Diablo_Barbarian_8DIR.png</span>
+                <span className="text-[10px] font-mono text-stone-400">96×384</span>
+              </div>
+              <p className="text-[11px] text-stone-400">
+                Full 8-direction sprite sheet (3 walk frames × 8 directions) with broadsword and horned helm.
+              </p>
+              <div className="mt-2 text-[10px] font-mono text-amber-400/80">
+                Target: <code>Graphics/Characters/</code>
+              </div>
+            </div>
+            <div className="mt-3 flex items-center gap-2">
+              <a
+                href="/assets/$Diablo_Barbarian_8DIR.png"
+                download="$Diablo_Barbarian_8DIR.png"
+                className="w-full py-1.5 bg-stone-800 hover:bg-stone-700 text-amber-300 border border-stone-700 rounded text-center text-xs font-mono font-bold flex items-center justify-center gap-1.5"
+              >
+                <Download className="w-3.5 h-3.5" /> Download 8-Dir (.png)
+              </a>
+            </div>
+          </div>
+
+          {/* Standard 4-Dir Character PNG Card */}
+          <div className="p-3 bg-stone-950 border border-stone-800 rounded flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-1">
+                <span className="font-mono text-xs font-bold text-amber-200">$Diablo_Barbarian_4DIR.png</span>
+                <span className="text-[10px] font-mono text-stone-400">96×192</span>
+              </div>
+              <p className="text-[11px] text-stone-400">
+                Standard VX Ace 4-direction sprite sheet (Down, Left, Right, Up). Works instantly out of the box!
+              </p>
+              <div className="mt-2 text-[10px] font-mono text-amber-400/80">
+                Target: <code>Graphics/Characters/</code>
+              </div>
+            </div>
+            <div className="mt-3 flex items-center gap-2">
+              <a
+                href="/assets/$Diablo_Barbarian_4DIR.png"
+                download="$Diablo_Barbarian_4DIR.png"
+                className="w-full py-1.5 bg-stone-800 hover:bg-stone-700 text-amber-300 border border-stone-700 rounded text-center text-xs font-mono font-bold flex items-center justify-center gap-1.5"
+              >
+                <Download className="w-3.5 h-3.5" /> Download 4-Dir (.png)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Studio Category Navigation */}
       <div className="flex items-center justify-between p-2 bg-stone-950 border-b border-stone-800 text-xs">
         <div className="flex items-center gap-1">
